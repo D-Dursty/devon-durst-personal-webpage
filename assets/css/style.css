@@ -31,12 +31,12 @@ header h1 {
     padding-block-end: 120px;*/
     margin-block-start: 70px;
     justify-content: flex-end;
+    align-items:flex-start
 }
 
 header nav ul {
     display:flex;
-    padding-block-start: 70px; /*this moves text down from top of container*/
-    padding-right: 35px;
+    padding-block-start: 80px; /*this moves text down from top of container*/
     color:#56b15c;
 }
 
@@ -59,38 +59,27 @@ header nav ul li {
     background-repeat: no-repeat;
 }
 
-.main {
-    display:flex; 
-}
-
-.About-Me-Class {
+.About-me {
     display:flex;
+    flex-wrap: wrap;
 }
 
 #About-Me {
+    display:flex;
     width:20%;
     height: auto;
     border-radius: 120px; 
-    filter:grayscale (90%); 
+    /*margin-left: 165px;*/
+    filter:grayscale(100%);
 }
 
 
-.About-Me-Class h1 {
+.About-me-section {
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.Work-body{
     display: flex;
     justify-content: flex-end;
-    text-align: center;
-}
-
-.About-Me--body {
-    display: flex;
-    justify-content: flex-end;
-    text-align: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-
-}
-
-  {
-    display:flex;
-    justify-content:flex end;
 }
