@@ -1,0 +1,96 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between; 
+    /*background-color: grey;*/
+    background-image: url("../images/mountain_sky.jpg");
+    background-size: 1136px 70px;
+    height: 140px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+
+
+header div {
+    flex: 0 0 40%;
+    position: relative;
+    text-align: left;
+}
+
+header h1 {
+    display:flex;
+    right:0;
+    background: #b6b4b8;
+    color: rgb(220, 234, 229);
+    height: 70px;
+    /*padding-block-start: 70px;
+    padding-block-end: 120px;*/
+    margin-block-start: 70px;
+    justify-content: flex-end;
+}
+
+header nav ul {
+    display:flex;
+    padding-block-start: 70px; /*this moves text down from top of container*/
+    padding-right: 35px;
+    color:#56b15c;
+}
+
+header nav ul li {
+    justify-content: flex end;
+    text-align:center;
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    padding: 14px 20px; 
+}
+
+#subheader {
+    display:flex;
+    justify-content: flex-end;
+    background-image: url("../images/mountain_lake.jpg");
+    background-size: 1136px 70px;
+    height: 140px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.main {
+    display:flex; 
+}
+
+.About-Me-Class {
+    display:flex;
+}
+
+#About-Me {
+    width:20%;
+    height: auto;
+    border-radius: 120px; 
+    filter:grayscale (90%); 
+}
+
+
+.About-Me-Class h1 {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.About-Me--body {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+  {
+    display:flex;
+    justify-content:flex end;
+}
