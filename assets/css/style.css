@@ -1,6 +1,9 @@
 * {
+    max-width: 1200 px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+    color:#101010; 
+    box-sizing: border-box;
+    }
 
 .header {
     display:flex;
@@ -23,15 +26,15 @@ header div {
 
 header h1 {
     display:flex;
-    right:0;
-    background: #b6b4b8;
-    color: rgb(220, 234, 229);
+    right: 5px;
+    background: #101010;
+    color: antiquewhite;
     height: 70px;
     /*padding-block-start: 70px;
     padding-block-end: 120px;*/
     margin-block-start: 70px;
     justify-content: flex-end;
-    align-items:flex-start
+    align-items:flex-start;
 }
 
 header nav ul {
@@ -41,6 +44,7 @@ header nav ul {
 }
 
 header nav ul li {
+    display: flex;
     justify-content: flex end;
     text-align:center;
     list-style: none;
@@ -59,27 +63,68 @@ header nav ul li {
     background-repeat: no-repeat;
 }
 
-.About-me {
+.About-Me {
     display:flex;
     flex-wrap: wrap;
 }
-
+/*
 #About-Me {
     display:flex;
     width:20%;
     height: auto;
     border-radius: 120px; 
-    /*margin-left: 165px;*/
     filter:grayscale(100%);
 }
+*/
 
-
-.About-me-section {
+.About-Me h2 {
+    flex:1;
     display: flex;
     flex-wrap: wrap;  
+    justify-content:flex-start;
 }
 
-.Work-body{
+.About-me p {
+    flex:3;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Work-body {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.Work-body div {
+    display: flex;
+    flex: 0 0 40%;
+    position: relative;
+    text-align: left;
+}
+.Work-body h2 {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+}
+
+.Work-body p {
     display: flex;
     justify-content: flex-end;
+}
+footer {
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+h4 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+footer ul li {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
 }
