@@ -90,27 +90,58 @@ header nav ul li {
     flex-wrap: wrap;
 }
 
-.Work-body {
+
+.Work {
     display:flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    /* Centers along the main axis determined by flex-direction */
+    width: 95%;
+    /* Uses the height of the viewport */
+    height: auto;
+    margin: 0 auto;
+    border-style: none;
+    border-width: 2px;
 }
 
-.Work-body div {
-    display: flex;
-    flex: 0 0 40%;
-    position: relative;
-    text-align: left;
-}
-.Work-body h2 {
+.Work h2 {
     display: flex;
     position: relative;
-    justify-content: flex-end;
+    justify-content:flex-start;
+    width: 30%;
 }
+    .card {
+    display: flex;
+    flex-direction: column;
+    border-width: 25%;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    justify-content: center;
+  }
 
-.Work-body p {
+  .card header {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: flex;
+    justify-content: center;
+    border: 90%;
+  }
+
+  .card img {
     display: flex;
-    justify-content: flex-end;
-}
+    flex-direction: column;
+    justify-content: center;
+    filter:grayscale(100%);
+    height:auto;
+  }
+
+  .card img:hover{
+    filter:none;
+  }
+
+
 footer {
     display:flex;
     flex-wrap: wrap;
