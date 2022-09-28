@@ -215,12 +215,12 @@ footer ul li {
         display: none;
     }
 
-    .about-me,  {
+    .about-me  {
         flex-direction: column; 
         justify-content: center;
         width: 100%;
         text-align: center;
-        padding-left: 70px;
+        padding-left: 7  5  0px;
     
     }
     .about-me h2 {
