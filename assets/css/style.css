@@ -96,7 +96,8 @@ header nav ul li:hover {
     justify-content: flex-end;
 }
 
-
+/* The .work class is the parent container for this section. Within this container I have two distinct areas for my header, and then to display my images. 
+The .images container holds my .cards--which hold the actual photos. Giving each photo its own flex container allows me to move around everything within that container with ease. */ 
 .work {
     display:flex;
     flex-wrap: wrap;
@@ -122,7 +123,6 @@ header nav ul li:hover {
     flex-wrap: wrap;
     justify-content:left;
     max-width: 70%;
-   /* padding: 10%;*/
 }
 .card-1, .card-2, .card-3 {
     display: flex;
@@ -182,7 +182,7 @@ footer ul li {
     text-decoration: none;
     display:inline;
 }
-
+/* Not using this media query pixel size because it already works without */
 /* Tablets - header changes color */
 /*@media screen and (max-width: 992px) {
     .header, .about-me, .images {
