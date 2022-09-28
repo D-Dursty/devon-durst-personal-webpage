@@ -2,7 +2,7 @@
 
 
 
-![phone screenshot](../images/iphone1.jpg)
-![phone screenshot](../images/iphone2.jpg)
-![phone screenshot](../images/iphone3.jpg)
-![computer screenshot](../images/screenshot(18).png)
+![phone screenshot](./assets/images/iphone1.jpg)
+![phone screenshot](./assets/images/iphone2.jpg)
+![phone screenshot](./assets/images/iphone3.jpg)
+![computer screenshot](./assets/images/screenshot(18).png)
