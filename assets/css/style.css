@@ -7,7 +7,9 @@ body {
 background-color: aliceblue;
 max-width: 1150PX;
 }
-
+/* In order for my design to accomodate different screen sizes,
+I created nested flex containers to be able to control to the movement 
+of each individual element as it changed in size. */
 .header {
     display:flex;
     justify-content: space-between; 
@@ -122,7 +124,7 @@ header nav ul li:hover {
     max-width: 70%;
    /* padding: 10%;*/
 }
-.card-1, .card-2, .card-3{
+.card-1, .card-2, .card-3 {
     display: flex;
     flex-wrap: wrap;
     flex-direction:row;
@@ -134,6 +136,10 @@ header nav ul li:hover {
     border-style:dotted;
     border-width: 1px;
     justify-content:center;
+}
+
+.card-1:hover, .card-2:hover, .card-3:hover {
+    transform: scale(105%);
 }
 
 .card-1 header, .card-2 header, .card-3 header {
@@ -154,6 +160,7 @@ header nav ul li:hover {
 
 .card-1 img:hover, .card-2 img:hover, .card-3 img:hover {
     filter:none;
+    transform: scale(105%);
 }
 
 footer {
@@ -248,7 +255,7 @@ footer ul li {
         flex-direction: row;
         max-width: 70%;
 }
-    .card-1, .card-2, .card-3 {
+    .card-1, .card-2, .card-3, .card-4 {
         border-color: aliceblue;
         background-color: rgba(240, 248, 255, 0.427);
     }
@@ -306,7 +313,7 @@ footer ul li {
     max-width: 100%;
     
 }
-    .card-1, .card-2, .card-3 {
+    .card-1, .card-2, .card-3, .card-4 {
         border-color: aliceblue;
         background-color: rgba(240, 248, 255, 0.427);
     }
